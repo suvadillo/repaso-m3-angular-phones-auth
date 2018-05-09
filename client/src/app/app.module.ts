@@ -10,12 +10,18 @@ import { PhoneListComponent } from './phone-list/phone-list.component';
 import { PhoneService } from './services/phone.service';
 import { RouterModule } from '@angular/router';
 import { routes } from './routes';
+import { TopPageComponent } from './top-page/top-page.component';
+import { FooterPageComponent } from './footer-page/footer-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginFormComponent,
-    PhoneListComponent
+    PhoneListComponent,
+    TopPageComponent,
+    FooterPageComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,

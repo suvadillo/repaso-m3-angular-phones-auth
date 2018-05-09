@@ -8,7 +8,7 @@ import { SessionService } from './services/session.service';
 })
 export class AppComponent {
   title = 'app works!';
-  constructor(public sessionService:SessionService){
+  constructor(public sessionService: SessionService){
 
     this.sessionService.userEvent.subscribe( user => {
       console.log("USER EVENT");
